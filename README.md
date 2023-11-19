@@ -7,7 +7,7 @@ This project is a website template generator that allows users to create dynamic
 - Dynamic Website Sections
   - Hero Section
   - Introduction
-  - Key Points (Cards or Custom Design)
+  - Topics (Cards or Custom Design)
   - Frequently Asked Questions (FAQs)
 
 ## Getting Started
@@ -41,7 +41,11 @@ OPEN_AI_KEY=your_openai_api_key
 
 1. Start the server:
 ```
-npm start
+cd frontend
+npm run dev
+
+cd backend
+npm run dev
 ```
 
 2. Access the application at [http://localhost:5000](http://localhost:5000).
@@ -80,10 +84,3 @@ npm run build
 - Axios (API calls)
 - OpenAI GPT-3
 - Chalk (for enhanced logging)
-
-## Evaluation Criteria
-
-- Functionality: Correct implementation of required features.
-- Code Quality: Structure, organization, and adherence to best practices.
-- UI/UX Design: Responsiveness and user experience.
-- Documentation: Clarity and completeness of the README file.
