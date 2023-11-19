@@ -21,7 +21,7 @@ This project is a website template generator that allows users to create dynamic
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/website-template-generator.git
+git clone https://github.com/yamanjamal/website-template-generator.git
 ```
 
 2. Install dependencies:
