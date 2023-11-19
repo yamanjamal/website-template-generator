@@ -67,10 +67,6 @@ npm run build
 
 3. Deploy the build files to your hosting service.
 
-## Demo Video
-
-[Link to Demo Video](https://your_demo_video_link)
-
 ## Technologies Used
 
 - Node.js
