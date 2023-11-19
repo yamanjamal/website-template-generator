@@ -44,7 +44,7 @@ OPEN_AI_KEY=your_openai_api_key
 npm start
 ```
 
-2. Access the application at [http://localhost:3000](http://localhost:5000).
+2. Access the application at [http://localhost:5000](http://localhost:5000).
 
 ## Usage
 
