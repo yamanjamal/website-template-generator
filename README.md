@@ -33,8 +33,8 @@ npm install
 3. Set up environment variables:
 Create a `.env` file in the root directory and add:
 ```
-MONGODB_URI=your_mongodb_uri
-OPENAI_API_KEY=your_openai_api_key
+DATABASE_URL=your_mongodb_uri
+OPEN_AI_KEY=your_openai_api_key
 ```
 
 ### Running the Application
