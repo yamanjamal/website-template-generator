@@ -42,7 +42,6 @@ export default function WebsiteForm() {
     })
 
   const onSubmit = (data: WebsiteFormValues) => {
-    console.log(data)
     generateWebsite(data)
   }
 

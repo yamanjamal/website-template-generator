@@ -38,8 +38,8 @@ export default function Navbar() {
             </button>
 
             {/* <!-- Navbar Brand --> */}
-            <Link
-              to="#hero-section"
+            <a
+              href="#hero-section"
               className="text-primary dark:text-primary-400"
             >
               <span className="[&>svg]:ml-2 [&>svg]:mr-3 [&>svg]:h-6 [&>svg]:w-6 [&>svg]:lg:ml-0">
@@ -49,7 +49,7 @@ export default function Navbar() {
                   src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
                 />
               </span>
-            </Link>
+            </a>
           </div>
 
           {/* <!-- Collapsible wrapper --> */}
@@ -94,6 +94,17 @@ export default function Navbar() {
                 >
                   FAQs
                 </a>
+              </li>
+              <li data-te-nav-item-ref>
+                <Link
+                  className="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
+                  to="/"
+                  data-te-nav-link-ref
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                >
+                  ReGenrate
+                </Link>
               </li>
             </ul>
             {/* <!-- Left links --> */}
